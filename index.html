@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<!-- Bootstrap verion of calculator -->
+<body>
+    <div class="container my-5">
+        <div class="card w-50  m-auto">
+            <div class="card-header bg-primary  text-light text-center">
+                <h3>Simple Calculator</h3>
+            </div>
+            <div class="card-body">
+                <form  method="post">
+                    <div class="row">
+                        <div class="col-md-6"><label for="num1">Enter a number</label></div>
+                        <div class="col-md-6"><input type="number" name="num1" id="num1" placeholder="Enter a number">    </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6"><label for="num2">Enter another number</label></div>
+                        <div class="col-md-6"><input type="number" name="num2" id="num2" placeholder="Enter another number"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button type="submit" formaction="add/" class = "btn btn-success" value="+">ADD</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" formaction="sub/" class = "btn btn-success" value="-">SUB</button>
+                        </div>  
+                        <div class="col-md-3">
+                            <button type="submit" formaction="mul/" class = "btn btn-success" value="*">MUL</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" formaction="div/" class = "btn btn-success" value="/">DIV</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
